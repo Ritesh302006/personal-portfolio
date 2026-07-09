@@ -76,7 +76,7 @@ export function Hero() {
             <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-neon-blue to-neon-purple blur-2xl opacity-50 animate-pulse" />
             <div className="relative w-full h-full rounded-full border-4 border-white/10 overflow-hidden box-glow p-2 glass">
                <img 
-                 src="https://media.licdn.com/dms/image/v2/D4E03AQEBWUQAkbNGCg/profile-displayphoto-scale_200_200/B4EZldBFxRHgAc-/0/1758202196536?e=1781136000&v=beta&t=E57vDdrOxa0JDAVgEZvEXDr5XFlE_kegN_11XFJX4MM" 
+                 src="https://media.licdn.com/dms/image/v2/D4D03AQHMrnojHkP6cw/profile-displayphoto-crop_800_800/B4DZ8XtF23IIAQ-/0/1782809125911?e=1785369600&v=beta&t=9hAe8pAWh1j3bqtPJga_w3ITuibGaHyA6ilLbNkleBE" 
                  alt="Ritesh" 
                  referrerPolicy="no-referrer"
                  className="w-full h-full object-cover rounded-full transition-all duration-500"

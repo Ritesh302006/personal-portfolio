@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { SectionTitle } from "./SectionTitle";
-import { Trophy, Medal, HeartHandshake, Award } from "lucide-react";
+import { Trophy, Medal, HeartHandshake, Award, Users, Cloud } from "lucide-react";
 
 export function Achievements() {
   const achievements = [
@@ -31,6 +31,20 @@ export function Achievements() {
       icon: <HeartHandshake className="w-8 h-8" />,
       color: "text-red-400",
       bgColor: "bg-red-400/10"
+    },
+    {
+      title: "Campus Leader",
+      subtitle: "GeeksforGeeks",
+      icon: <Users className="w-8 h-8" />,
+      color: "text-green-400",
+      bgColor: "bg-green-400/10"
+    },
+    {
+      title: "Group Leader",
+      subtitle: "AWS Student Builder",
+      icon: <Cloud className="w-8 h-8" />,
+      color: "text-orange-400",
+      bgColor: "bg-orange-400/10"
     }
   ];
 
@@ -39,7 +53,7 @@ export function Achievements() {
       <div className="max-w-6xl mx-auto">
         <SectionTitle title="Achievements" subtitle="Milestones & Recognitions" />
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {achievements.map((item, idx) => (
             <motion.div
               key={idx}

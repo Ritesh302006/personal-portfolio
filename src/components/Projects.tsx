@@ -11,6 +11,30 @@ export function Projects() {
       img: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
       liveUrl: "https://car-gamers.vercel.app/",
       githubUrl: "#"
+    },
+    {
+      title: "Calculator Pro",
+      desc: "A sleek and functional calculator application for solving mathematical equations seamlessly.",
+      tags: ["React", "CSS", "Math"],
+      img: "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?auto=format&fit=crop&w=600&q=80",
+      liveUrl: "https://calculator-pro-kappa.vercel.app/",
+      githubUrl: "#"
+    },
+    {
+      title: "Convertly Tool",
+      desc: "A versatile unit conversion tool designed for quick and accurate everyday unit exchanges.",
+      tags: ["Web App", "Utilities", "JavaScript"],
+      img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80",
+      liveUrl: "https://convertly-tool-rutj.vercel.app/",
+      githubUrl: "#"
+    },
+    {
+      title: "BMI Calculator",
+      desc: "A user-friendly health tool to calculate Body Mass Index (BMI) and track wellness status.",
+      tags: ["Health", "React", "Tailwind CSS"],
+      img: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&q=80",
+      liveUrl: "https://bmi-calculator-five-lake.vercel.app/",
+      githubUrl: "#"
     }
   ];
 
